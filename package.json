@@ -1,0 +1,18 @@
+{
+  "name": "todo_api",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx node src/server.js",
+    "dev": "npx nodemon src/server.js"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
